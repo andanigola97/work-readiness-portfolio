@@ -88,7 +88,7 @@ Result: The experience helped me improve my confidence, communication skills, an
 
 # GitHub Pages Deployment
 
-Live Portfolio: https://yourusername.github.io
+Live Portfolio: https://andanigola97.github.io/work-readiness-portfolio/
 
 ---
 
