@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Andy Gola | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 60px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: #aaa;
+      margin-top: 10px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      color: #ff7a00;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #bbb;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #ff7a00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff9a3c;
+    }
+
+    video, iframe {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: #ff7a00;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Andy Gola</h1>
+  <p>Creative | Video Editor | Visual Storyteller</p>
+</header>
+
+<nav>
+  <a href="#about">ABOUT</a>
+  <a href="#cv">CV</a>
+  <a href="#video">VIDEO</a>
+</nav>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <div class="divider"></div>
+  <p>
+    I’m a creative professional focused on visual storytelling, video editing, and digital content creation.
+    I enjoy bringing ideas to life through clean visuals and engaging narratives.
+  </p>
+</section>
+
+<section id="cv" class="section">
+  <h2>My CV</h2>
+  <div class="divider"></div>
+  <p>You can view or download my CV below:</p>
+
+  <!-- Make sure your file is named exactly "cv.pdf" -->
+  <a class="btn" href="cv.pdf" target="_blank">View CV</a>
+</section>
+
+<section id="video" class="section">
+  <h2>Mock Interview</h2>
+  <div class="divider"></div>
+  <p>Watch my mock interview video:</p>
+
+  <!-- OPTION A: YouTube Embed (RECOMMENDED) -->
+  <!-- Replace the link below with your YouTube embed link -->
+  <iframe 
+    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+
+  <!-- OPTION B: Direct video file (if uploaded to GitHub) -->
+  <!-- Uncomment if using local file -->
+  <!--
+  <video controls>
+    <source src="interview.mp4" type="video/mp4">
+  </video>
+  -->
+
+  <!-- Backup link (always keep this) -->
+  <br>
+  <a class="btn" href="YOUR_VIDEO_LINK" target="_blank">
+    Open Video
+  </a>
+
+</section>
+
+<footer>
+  <p>© 2026 Andy Gola</p>
+</footer>
+
+</body>
+</html>
