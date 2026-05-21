@@ -65,8 +65,11 @@ Diploma in Information and Communication Technology
 
 # Reflection 1 — CV Creation (STAR Method)
 Situation: I was required to create a professional CV as part of my digital portfolio using Markdown.
+
 Task: My task was to design a structured and professional CV that clearly presents my personal information, skills, education, and experience.
+
 Action: I researched professional CV layouts and used Markdown formatting such as headings, bullet points, and spacing to organise my information clearly. I focused on keeping the layout clean, readable, and professional.
+
 Result: I successfully created a well-structured CV that improved my understanding of professional presentation and Markdown formatting. I also gained confidence in presenting my skills in a clear and professional manner.
 
 ---
@@ -79,9 +82,12 @@ Result: I successfully created a well-structured CV that improved my understandi
 
 # Reflection 2 — Mock Interview (STAR Method)
 
- Situation: I was required to complete a mock interview as part of my work readiness training.
+Situation: I was required to complete a mock interview as part of my work readiness training.
+
 Task: The goal was to present myself professionally and answer common interview questions clearly and confidently.
+
 Action: I prepared by reviewing common interview questions and practicing my responses. I focused on communication, clarity, and maintaining a professional tone during the recording.
+
 Result: The experience helped me improve my confidence, communication skills, and ability to present myself professionally in interview settings. It also helped me understand how preparation improves performance.
 
 ---
