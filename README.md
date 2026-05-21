@@ -1,6 +1,6 @@
 # Tondiwe Andani Gola — Digital Portfolio
 
-Welcome to my Digital Portfolio 🚀  
+Welcome to my Digital Portfolio
 This portfolio showcases my CV, mock interview experience, and reflections on my learning journey.
 
 ---
@@ -23,7 +23,7 @@ I enjoy using technology to build meaningful and visually engaging content while
 
 ---
 
-## 🎓 Education
+## Education
 
 **Cape Peninsula University of Technology (CPUT)**  
 Diploma in Information and Communication Technology  
@@ -76,7 +76,7 @@ Result: I successfully created a well-structured CV that improved my understandi
 
 # Mock Interview Video
 
-👉 Watch here: **PASTE YOUR VIDEO LINK HERE**
+Watch here: https://drive.google.com/file/d/1l2VVWTTa9t5Ir9gja1fyI8Vg88fiki2N/view?usp=sharing
 
 ---
 
