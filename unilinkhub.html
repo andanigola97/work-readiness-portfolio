@@ -1,0 +1,800 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UniLinkHub | Agile Project Portfolio</title>
+<style>
+:root {
+  --navy:#14213d;
+  --blue:#2457a7;
+  --teal:#159b91;
+  --gold:#e9b949;
+  --ink:#202938;
+  --muted:#687386;
+  --paper:#f5f7fb;
+  --white:#fff;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Arial,Helvetica,sans-serif;
+  line-height:1.7;
+}
+header {
+  background:var(--navy);
+  color:white;
+  padding:65px 8%;
+}
+.eyebrow {
+  color:var(--gold);
+  text-transform:uppercase;
+  letter-spacing:3px;
+  font-size:12px;
+  font-weight:bold;
+}
+header h1 {
+  font-size:clamp(38px,6vw,64px);
+  line-height:1.08;
+  margin:16px 0;
+}
+header p {
+  max-width:760px;
+  color:#dce5f2;
+  font-size:17px;
+}
+nav {
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:white;
+  border-bottom:1px solid #e2e7ef;
+  padding:14px 5%;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px 20px;
+}
+nav a {
+  color:var(--navy);
+  text-decoration:none;
+  font-size:13px;
+  font-weight:bold;
+}
+nav a:hover { color:var(--teal); }
+main {
+  width:min(1050px,90%);
+  margin:42px auto;
+}
+section {
+  background:white;
+  padding:34px;
+  margin-bottom:26px;
+  border-radius:14px;
+  box-shadow:0 5px 22px rgba(20,33,61,.05);
+  scroll-margin-top:85px;
+}
+h2 {
+  color:var(--navy);
+  font-size:28px;
+  margin-top:0;
+}
+h3 { color:var(--blue); margin-bottom:8px; }
+p { margin-top:8px; }
+.muted { color:var(--muted); }
+.tag {
+  display:inline-block;
+  background:#e9f5f4;
+  color:#08756e;
+  padding:5px 10px;
+  border-radius:30px;
+  font-size:12px;
+  font-weight:bold;
+  margin:3px 4px 3px 0;
+}
+.card {
+  border:1px solid #e4e9f0;
+  border-left:4px solid var(--teal);
+  border-radius:8px;
+  padding:17px 20px;
+  margin:14px 0;
+}
+.reflection {
+  background:#f2f6fc;
+  border-left:4px solid var(--gold);
+  padding:18px 20px;
+  border-radius:8px;
+  margin-top:22px;
+}
+.reflection strong { color:var(--navy); }
+table {
+  width:100%;
+  border-collapse:collapse;
+  margin:16px 0;
+  font-size:14px;
+}
+th,td {
+  border:1px solid #e1e6ee;
+  text-align:left;
+  padding:11px;
+  vertical-align:top;
+}
+th { background:#edf2f8; color:var(--navy); }
+a { color:var(--blue); }
+.button {
+  display:inline-block;
+  background:var(--blue);
+  color:white;
+  padding:11px 17px;
+  text-decoration:none;
+  border-radius:7px;
+  font-weight:bold;
+  margin:5px 6px 5px 0;
+}
+.button:hover { background:var(--teal); }
+footer {
+  background:var(--navy);
+  color:#dce5f2;
+  text-align:center;
+  padding:30px 8%;
+  font-size:13px;
+}
+@media(max-width:650px) {
+  header { padding:42px 6%; }
+  section { padding:23px; }
+  nav { position:static; }
+  table { display:block; overflow-x:auto; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">PRP370S · Project Presentation 3</div>
+  <h1>UniLinkHub</h1>
+  <p><strong>Connect. Buy. Sell &amp; Succeed.</strong></p>
+  <p>
+    An Agile project portfolio documenting the planning,
+    organisation, tasks, sprint activities and learning
+    reflections behind UniLinkHub — a digital marketplace
+    designed to connect student entrepreneurs with customers.
+  </p>
+  <span class="tag">Agile Project</span>
+  <span class="tag">Team Collaboration</span>
+  <span class="tag">Digital Portfolio</span>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#charter">Team Charter</a>
+  <a href="#stories">User Stories</a>
+  <a href="#product">Product Backlog</a>
+  <a href="#sprint">Sprint Backlog</a>
+  <a href="#logbook">Agile Logbook</a>
+  <a href="#evidence">Evidence</a>
+</nav>
+
+<main>
+
+<section id="overview">
+  <h2>Project Overview</h2>
+  <p>
+    UniLinkHub is a student-focused digital marketplace intended
+    to support student entrepreneurs and make it easier for
+    students to discover businesses, products and services
+    within their university communities.
+  </p>
+  <h3>Project purpose</h3>
+  <p>
+    The purpose of UniLinkHub is to provide student-owned
+    businesses with a platform to promote their offerings,
+    share business information and connect with potential
+    customers.
+  </p>
+  <h3>My role</h3>
+  <p>
+    I was part of the Developer, Analyst and Tester team.
+    My responsibilities included supporting sprint and backlog
+    activities, data discovery and exploration, data validation
+    and quality, and data analysis and updates.
+  </p>
+  <p>
+    My project involvement also included activities associated
+    with business research, marketing strategy, proposal work
+    and presentation preparation.
+  </p>
+  <h3>Agile approach</h3>
+  <p>
+    The team used an Agile approach to organise project work
+    into sprints, maintain a product backlog, break larger
+    activities into smaller tasks and monitor progress through
+    Trello. Microsoft Teams, WhatsApp and Outlook supported
+    team communication and coordination.
+  </p>
+  <a class="button"
+     href="https://trello.com/b/B01lSyH6/unilinkhub"
+     target="_blank" rel="noopener">View Trello Board</a>
+  <a class="button"
+     href="https://github.com/andanigola97/UniLinkHub"
+     target="_blank" rel="noopener">View GitHub Project</a>
+</section>
+
+<!-- 1. TEAM CHARTER -->
+<section id="charter">
+  <h2>1. Agile Team Charter</h2>
+  <p>
+    The Agile Team Charter established the team's shared purpose,
+    responsibilities, communication practices, working agreements
+    and expectations for completing UniLinkHub.
+  </p>
+
+  <h3>Team purpose</h3>
+  <p>
+    To plan and develop a student-focused digital marketplace
+    that enables student entrepreneurs to advertise their
+    businesses, share business information and connect with
+    potential customers.
+  </p>
+
+  <h3>Team roles and responsibilities</h3>
+  <table>
+    <tr><th>Team member</th><th>Role</th><th>Responsibilities</th></tr>
+    <tr>
+      <td>Tshephiso Pretty Kekana</td>
+      <td>Product Owner</td>
+      <td>Manage and prioritise the product backlog and
+      contribute to the marketing strategy.</td>
+    </tr>
+    <tr>
+      <td>Tim Davids</td>
+      <td>Scrum Master</td>
+      <td>Organise and lead the team, support progress
+      and provide guidance.</td>
+    </tr>
+    <tr>
+      <td>Siphokuhle Gedze</td>
+      <td>Developer / Analyst / Tester</td>
+      <td>Contribute to coding, task breakdown, estimation
+      and deployment.</td>
+    </tr>
+    <tr>
+      <td>Matinisa</td>
+      <td>Developer / Analyst / Tester</td>
+      <td>Support requirements analysis, test design,
+      test cases, testing and defect tracking.</td>
+    </tr>
+    <tr>
+      <td>Tondiwe Andani Gola</td>
+      <td>Developer / Analyst / Tester</td>
+      <td>Support sprint and backlog activities, data discovery,
+      data validation, data quality and data analysis.</td>
+    </tr>
+  </table>
+
+  <h3>Communication and collaboration</h3>
+  <ul>
+    <li>Google Meets for weekly team meetings.</li>
+    <li>WhatsApp for day-to-day coordination.</li>
+    <li>Trello for organising tasks and monitoring progress.</li>
+  </ul>
+
+  <h3>Team working agreements</h3>
+  <ul>
+    <li>Attend scheduled meetings and arrive prepared.</li>
+    <li>Respect meeting time limits and other contributions.</li>
+    <li>Provide constructive feedback.</li>
+    <li>Raise blockers and challenges early.</li>
+    <li>Share relevant information and follow agreed schedules.</li>
+    <li>Use the team's agreed tools to coordinate work.</li>
+  </ul>
+
+  <h3>Team values</h3>
+  <p>
+    Respect, transparency, accountability, trust, a learning
+    mindset, honour, dignity, professionalism, lawfulness
+    and team wellbeing.
+  </p>
+
+  <h3>Definition of Done</h3>
+  <p>
+    Work is considered complete when the code has been
+    completed and reviewed, tests have passed, relevant
+    documentation has been updated, the Product Owner has
+    accepted the work, deployment has been confirmed and
+    the platform can represent client businesses and services.
+  </p>
+
+  <h3>Risks, dependencies and constraints</h3>
+  <ul>
+    <li><strong>Risks:</strong> Equipment damage, system crashes,
+    process delays, unexpected costs and stock increases.</li>
+    <li><strong>Dependencies:</strong> Internet access, equipment,
+    database software, application programs and transport.</li>
+    <li><strong>Constraints:</strong> Time, budget accuracy,
+    shared tools and the team's familiarity with software.</li>
+  </ul>
+
+  <a class="button" href="UniLinkHub-Signed-Team-Charter.pdf"
+     target="_blank">Open Signed Team Charter PDF</a>
+
+  <div class="reflection">
+    <strong>Individual Reflection — Agile Team Charter</strong>
+    <p>
+      Developing the Agile Team Charter gave me a better
+      understanding of the importance of structure,
+      accountability and shared expectations when working
+      as part of a team. Before work can progress effectively,
+      everyone needs to understand the purpose of the project,
+      their responsibilities and how their contributions fit
+      into the bigger picture.
+    </p>
+    <p>
+      One of the key things I took away from this process was
+      that collaboration requires more than simply dividing
+      tasks between people. It requires communication,
+      consistency and a willingness to take responsibility
+      for the work assigned to you. Having clearly defined
+      roles and working agreements helped establish a common
+      direction for the team.
+    </p>
+    <p>
+      As a Developer, Analyst and Tester, I understood that
+      my contribution extended beyond completing individual
+      tasks. Supporting sprint activities, working with data
+      and contributing to the overall project required me
+      to remain aware of how my work affected the team's progress.
+    </p>
+    <p>
+      Overall, this experience reinforced the importance of
+      being accountable, communicating effectively and
+      understanding that the success of a team project depends
+      on everyone's willingness to contribute towards a
+      shared objective.
+    </p>
+  </div>
+</section>
+
+<!-- 2. USER STORIES AND TASKS -->
+<section id="stories">
+  <h2>2. User Stories and Tasks</h2>
+  <p>
+    User stories describe the needs of people who will use
+    UniLinkHub. They help the team understand the value
+    behind a feature before breaking the work into smaller
+    and more manageable tasks.
+  </p>
+
+  <h3>Illustrative product user stories</h3>
+  <p class="muted">
+    The following are example user stories derived from the
+    planned product functionality. They should be checked
+    against the team's original requirements.
+  </p>
+
+  <div class="card">
+    <strong>US01 — Student registration</strong>
+    <p>As a student, I want to create an account so that
+    I can access the UniLinkHub platform.</p>
+    <p><strong>Example tasks:</strong> Design the registration
+    form, validate user details, implement account creation
+    and test registration.</p>
+  </div>
+
+  <div class="card">
+    <strong>US02 — Business profile</strong>
+    <p>As a student entrepreneur, I want to create a business
+    profile so that customers can discover my business.</p>
+    <p><strong>Example tasks:</strong> Capture business
+    information, create the profile interface, validate
+    submitted details and test profile creation.</p>
+  </div>
+
+  <div class="card">
+    <strong>US03 — Product and service listings</strong>
+    <p>As a seller, I want to advertise products and services
+    so that other students can view what my business offers.</p>
+    <p><strong>Example tasks:</strong> Create listing
+    functionality, capture product details, implement
+    listing management and test listing updates.</p>
+  </div>
+
+  <div class="card">
+    <strong>US04 — Browse and search</strong>
+    <p>As a buyer, I want to browse and search for products
+    and services so that I can find what I need.</p>
+    <p><strong>Example tasks:</strong> Create the browse
+    interface, implement search and category filters,
+    display matching listings and test search results.</p>
+  </div>
+
+  <div class="card">
+    <strong>US05 — Reporting and administration</strong>
+    <p>As a platform administrator, I want to review reported
+    content so that I can help maintain a safe and reliable
+    marketplace.</p>
+    <p><strong>Example tasks:</strong> Create a reporting
+    mechanism, record reports, provide an administrative
+    review queue and test report handling.</p>
+  </div>
+
+  <h3>Task organisation</h3>
+  <p>
+    The team's Trello board was used to break project work
+    into sprint cards and smaller checklist items. Recorded
+    activities included business research, marketing strategy,
+    proposal preparation and presentation work.
+  </p>
+  <p>
+    The wider development plan also included project
+    foundations, database design, authentication, listings,
+    browsing, dashboards, reporting, administration,
+    integration testing and deployment.
+  </p>
+
+  <a class="button"
+     href="https://trello.com/b/B01lSyH6/unilinkhub"
+     target="_blank" rel="noopener">View Trello Tasks</a>
+
+  <div class="reflection">
+    <strong>Individual Reflection — User Stories and Tasks</strong>
+    <p>
+      Working with user stories and tasks helped me understand
+      the importance of approaching a project from the
+      perspective of the people who will eventually use
+      the product. It is easy to focus on the technical
+      aspects of developing a platform, but understanding
+      the actual problem being addressed is what gives
+      those features purpose.
+    </p>
+    <p>
+      Throughout the UniLinkHub project, I developed a
+      greater appreciation for how an initial idea can
+      be translated into smaller, practical activities.
+      Breaking work down into tasks made the development
+      process easier to understand, organise and monitor.
+      It also highlighted the importance of writing clear
+      requirements so that everyone on the team understands
+      what needs to be achieved.
+    </p>
+    <p>
+      My involvement in business research, marketing strategy
+      and proposal preparation also helped me see the project
+      beyond its technical requirements. I began to appreciate
+      how the product's purpose, target users and overall
+      business idea influence the features that need to
+      be developed.
+    </p>
+    <p>
+      This taught me that good development starts with
+      understanding the problem before focusing on the
+      solution. In future projects, I want to become more
+      intentional about translating requirements into clear
+      tasks and ensuring that the work being done continues
+      to serve the needs of the intended users.
+    </p>
+  </div>
+</section>
+
+<!-- 3. PRODUCT BACKLOG -->
+<section id="product">
+  <h2>3. Product Backlog</h2>
+  <p>
+    The product backlog is the organised list of planned
+    product improvements, features and project work. It
+    provided the team with a broader view of the work
+    required to develop UniLinkHub.
+  </p>
+
+  <h3>High-level backlog items</h3>
+  <table>
+    <tr><th>Backlog item</th><th>Focus</th></tr>
+    <tr><td>Sprint 1 — Business Idea</td><td>Establish the business idea and project direction.</td></tr>
+    <tr><td>Sprint 2 — Business Improvements</td><td>Research and improve the business concept.</td></tr>
+    <tr><td>Sprint 3 — Proposal Presentation</td><td>Prepare and present the project proposal.</td></tr>
+    <tr><td>Sprint 4 — ERD Diagrams</td><td>Plan the database structure and relationships.</td></tr>
+    <tr><td>Sprint 5 — Wireframes</td><td>Plan the user interface and page layouts.</td></tr>
+    <tr><td>Sprint 6 — Project Foundation and Environment</td><td>Prepare the project environment.</td></tr>
+    <tr><td>Sprint 7 — Database and Domain Model</td><td>Establish the data model and database structure.</td></tr>
+    <tr><td>Sprint 8 — Authentication, Registration and Security</td><td>Plan secure account access.</td></tr>
+    <tr><td>Sprint 9 — Listings Backend</td><td>Develop listing-related backend functionality.</td></tr>
+    <tr><td>Sprint 10 — Listings Frontend</td><td>Develop the listing user interface.</td></tr>
+    <tr><td>Sprint 11 — Browse and Research</td><td>Support browsing and discovering listings.</td></tr>
+    <tr><td>Sprint 12 — Buyer Dashboard</td><td>Develop buyer dashboard functionality.</td></tr>
+    <tr><td>Sprint 13 — Seller Account and Dashboard Core</td><td>Support seller accounts and dashboard features.</td></tr>
+    <tr><td>Sprint 14 — Seller Dashboard Statistics</td><td>Provide seller performance information.</td></tr>
+    <tr><td>Sprint 15 — Report and Flag Mechanism</td><td>Allow users to report content.</td></tr>
+    <tr><td>Sprint 16 — Admin Panel</td><td>Support platform administration.</td></tr>
+    <tr><td>Sprint 17 — Integration Testing and Hardening</td><td>Test integrated features and improve reliability.</td></tr>
+    <tr><td>Sprint 18 — UI Polish and Deployment</td><td>Improve the interface and prepare deployment.</td></tr>
+    <tr><td>Sprint 19 — Final Documentation and Presentation</td><td>Prepare final documentation and presentation.</td></tr>
+  </table>
+
+  <p class="muted">
+    These are the high-level sprint items recorded on the
+    team's Trello board. The available export does not
+    provide a consistent numerical priority score for
+    every item, so no numerical ranking is claimed here.
+  </p>
+
+  <a class="button"
+     href="https://trello.com/b/B01lSyH6/unilinkhub"
+     target="_blank" rel="noopener">View Product Backlog</a>
+
+  <div class="reflection">
+    <strong>Individual Reflection — Product Backlog</strong>
+    <p>
+      The product backlog gave me a broader perspective of
+      the UniLinkHub project and the different stages
+      involved in developing a functional product. Seeing
+      the project organised into larger features and
+      development areas helped me understand how individual
+      tasks contribute to a much bigger objective.
+    </p>
+    <p>
+      One of the things I learned is that planning is not
+      simply about listing everything that needs to be done.
+      It is also about understanding the relationship between
+      tasks, recognising dependencies and ensuring that the
+      team has a clear direction. A well-maintained backlog
+      makes it easier to identify outstanding work and keep
+      track of the project's overall progress.
+    </p>
+    <p>
+      I also realised that a backlog should not be treated
+      as a fixed document. As a project develops, requirements
+      can become clearer, priorities can change and new
+      tasks can emerge. This makes continuous review and
+      communication important throughout the Agile process.
+    </p>
+    <p>
+      Going forward, I would place greater emphasis on
+      keeping backlog items specific, organised and clearly
+      understood by everyone involved. This experience
+      helped me appreciate how effective planning creates
+      a stronger foundation for execution and reduces
+      unnecessary confusion during development.
+    </p>
+  </div>
+</section>
+
+<!-- 4. SPRINT BACKLOG -->
+<section id="sprint">
+  <h2>4. Sprint Backlog</h2>
+  <p>
+    The sprint backlog represents work selected and
+    organised for specific sprint periods. The UniLinkHub
+    Trello board contains sprint cards and daily task cards
+    used to organise activities and monitor checklist progress.
+  </p>
+
+  <h3>Recorded sprint structure</h3>
+  <table>
+    <tr><th>Sprint</th><th>Recorded focus</th></tr>
+    <tr><td>Sprint 1</td><td>Business idea development and planning.</td></tr>
+    <tr><td>Sprint 2</td><td>Business improvements and research.</td></tr>
+    <tr><td>Sprint 3</td><td>Proposal presentation preparation.</td></tr>
+    <tr><td>Sprint 4</td><td>ERD diagrams and database planning.</td></tr>
+    <tr><td>Sprint 5</td><td>Wireframes — planned sprint.</td></tr>
+    <tr><td>Sprint 6</td><td>Project foundation and environment — planned sprint.</td></tr>
+  </table>
+
+  <h3>Task tracking and progress</h3>
+  <p>
+    Trello was used to organise daily work and checklist
+    items. Cards were placed into lists such as Product
+    Backlog, In Progress and Completed. Checklist items
+    provided a way to break activities into smaller steps
+    and record their status.
+  </p>
+  <p>
+    The available board export contains completed checklist
+    items as well as cards in different workflow lists.
+    Sprint 5 and Sprint 6 also contain placeholder planning
+    cards without recorded checklist work in the export.
+    They are therefore presented as planned work rather
+    than completed sprints.
+  </p>
+
+  <h3>My contribution</h3>
+  <p>
+    My recorded project responsibilities included sprint
+    and backlog support, data discovery and exploration,
+    data validation and quality, and data analysis and
+    updates. My Trello participation also included
+    activities associated with business research, marketing
+    strategy, proposal work and presentation preparation.
+  </p>
+
+  <a class="button"
+     href="https://trello.com/b/B01lSyH6/unilinkhub"
+     target="_blank" rel="noopener">View Sprint Backlog</a>
+
+  <div class="reflection">
+    <strong>Individual Reflection — Sprint Backlog</strong>
+    <p>
+      Working with the sprint backlog helped me understand
+      how Agile transforms a large project into smaller,
+      manageable periods of work. Instead of approaching
+      UniLinkHub as one overwhelming development task,
+      the team could focus on specific objectives and
+      monitor progress through individual sprint activities.
+    </p>
+    <p>
+      Using Trello gave me visibility into how work was
+      distributed, what was currently in progress and
+      which tasks had been completed. I found this
+      particularly useful because it demonstrated the
+      importance of keeping project information organised
+      and accessible to the entire team.
+    </p>
+    <p>
+      Through my involvement in sprint and backlog support,
+      I developed a better understanding of task coordination
+      and the importance of maintaining accurate progress
+      information. I also recognised that completing
+      individual tasks is only one part of the process;
+      understanding how those tasks contribute to the
+      sprint objective is equally important.
+    </p>
+    <p>
+      One area I would improve in future projects is
+      consistency in updating task progress and communicating
+      potential challenges earlier. An Agile process works
+      best when everyone has an accurate understanding of
+      what is happening, rather than relying on assumptions
+      about progress.
+    </p>
+    <p>
+      Overall, this experience strengthened my appreciation
+      for structured execution, teamwork and the discipline
+      required to move a project forward incrementally.
+    </p>
+  </div>
+</section>
+
+<!-- 5. AGILE LOGBOOK -->
+<section id="logbook">
+  <h2>5. Agile Logbook</h2>
+  <p>
+    The Agile Logbook records project activity and provides
+    a reflection on how the team organised and monitored
+    its work. The Trello board served as the main recorded
+    source of task updates, checklist progress and workflow
+    changes.
+  </p>
+
+  <h3>Project activity record</h3>
+  <table>
+    <tr><th>Activity area</th><th>Evidence recorded on the board</th></tr>
+    <tr><td>Business planning</td><td>Business Idea and Business Improvements sprint cards.</td></tr>
+    <tr><td>Research</td><td>Business Research and related task cards.</td></tr>
+    <tr><td>Marketing</td><td>Marketing Strategy task card.</td></tr>
+    <tr><td>Proposal preparation</td><td>Business Proposal and proposal presentation cards.</td></tr>
+    <tr><td>Task tracking</td><td>Daily sprint cards, checklists and checklist status updates.</td></tr>
+    <tr><td>Progress monitoring</td><td>Cards organised across Product Backlog, In Progress and Completed lists.</td></tr>
+  </table>
+
+  <h3>Agile tools and communication</h3>
+  <ul>
+    <li><strong>Trello:</strong> Task organisation, sprint cards and checklist tracking.</li>
+    <li><strong>Microsoft Teams:</strong> Weekly team meetings.</li>
+    <li><strong>WhatsApp:</strong> Day-to-day team coordination.</li>
+    <li><strong>Outlook:</strong> Formal plans and schedules.</li>
+  </ul>
+
+  <h3>Logbook evidence and limitations</h3>
+  <p>
+    The exported Trello activity provides evidence of card
+    updates, checklist creation, checklist status changes
+    and assignment changes. It does not contain written
+    minutes or detailed retrospective notes for every
+    team meeting. For this reason, this logbook does not
+    invent meeting dates, discussion points or decisions
+    that are not supported by the available records.
+  </p>
+
+  <h3>Personal learning and development</h3>
+  <p>
+    The project helped me understand the importance of
+    maintaining visibility of work throughout a team
+    project. Recording tasks and progress makes it easier
+    to understand what has been done, what remains
+    outstanding and where further coordination may be
+    required.
+  </p>
+
+  <div class="reflection">
+    <strong>Individual Reflection — Agile Logbook</strong>
+    <p>
+      The Agile Logbook helped me recognise the importance
+      of documenting the development process rather than
+      focusing only on the final product. Throughout a
+      project, there are decisions, task updates, challenges
+      and adjustments that contribute to the final outcome.
+      Keeping a record of these activities makes the
+      development journey easier to understand and evaluate.
+    </p>
+    <p>
+      Using Trello to monitor cards, assignments and
+      checklist progress demonstrated how project
+      management tools can provide visibility and
+      accountability within a team. It also made me realise
+      that documentation is most useful when it is
+      consistent, accurate and updated as work progresses.
+    </p>
+    <p>
+      One of my biggest takeaways was that progress should
+      not only be measured by how many tasks have been
+      completed. It is equally important to understand
+      what has been learned, what challenges were encountered
+      and how the team's approach can improve. Reflection
+      creates an opportunity to identify gaps in the process
+      and make better decisions moving forward.
+    </p>
+    <p>
+      If I were to approach another Agile project, I would
+      be more intentional about documenting my contributions,
+      recording important decisions and maintaining a clearer
+      record of challenges and lessons throughout each sprint.
+      This would make it easier to evaluate my own development
+      and provide meaningful evidence of the work completed.
+    </p>
+    <p>
+      Ultimately, UniLinkHub showed me that building a
+      product is not only about the technical outcome.
+      It is also about the planning, collaboration,
+      communication and continuous learning that happen
+      along the way.
+    </p>
+  </div>
+</section>
+
+<!-- EVIDENCE -->
+<section id="evidence">
+  <h2>Project Evidence and References</h2>
+  <p>
+    The following resources support the evidence presented
+    in this portfolio.
+  </p>
+  <ul>
+    <li>
+      <a href="UniLinkHub-Signed-Team-Charter.pdf" target="_blank">
+        Signed UniLinkHub Agile Team Charter
+      </a>
+    </li>
+    <li>
+      <a href="https://trello.com/b/B01lSyH6/unilinkhub"
+         target="_blank" rel="noopener">UniLinkHub Trello Board</a>
+    </li>
+    <li>
+      <a href="https://github.com/andanigola97/UniLinkHub"
+         target="_blank" rel="noopener">UniLinkHub GitHub Repository</a>
+    </li>
+  </ul>
+
+  <h3>Academic integrity</h3>
+  <p>
+    This portfolio presents project artefacts and reflections
+    based on the available team documentation and project
+    records. Team artefacts are identified as shared project
+    evidence. Individual reflections describe my learning
+    and perspective. External material used in the final
+    submission must be acknowledged using the required
+    referencing style.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p><strong>UniLinkHub — Agile Project Portfolio</strong></p>
+  <p>PRP370S · Project Presentation 3 · Diploma in ICT · CPUT</p>
+  <p>Prepared by Tondiwe Andani Gola</p>
+  <p>Connect. Buy. Sell &amp; Succeed.</p>
+</footer>
+
+</body>
+</html>
